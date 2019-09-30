@@ -1,0 +1,53 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": false,
+    "breadcrumbs.enabled": true,
+    "window.menuBarVisibility": "default",
+    "files.exclude": {
+        "**/.pyc": true
+    },
+    "search.exclude": {
+        "**/.pyc": true
+    },
+    "files.watcherExclude": {
+        "**/.pyc": true
+    },
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=79",
+        "--ignore=E116, E402",
+    ],
+    "files.insertFinalNewline": true,
+    "window.zoomLevel": 0,
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff7edb",
+        // "editor.background": "#232a30",
+        // "sideBar.background": "#232a30",
+        "breadcrumb.foreground": "#CDCDCD",
+        // "tab.inactiveBackground": "#232a30",
+        // "tab.activeBackground": "#102027",
+        // "breadcrumb.background": "#000a12",
+        // "statusBar.background": "#000a12",
+        // "list.activeSelectionBackground": "#000a12"
+    },
+    "editor.tokenColorCustomizations": {},
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "workbench.sideBar.location": "right",
+    "files.autoGuessEncoding": true,
+    "editor.fontSize": 14.5,
+    "explorer.autoReveal": true,
+    "workbench.activityBar.visible": false,
+    "vsnotes.defaultNotePath": "~/Documents/VSNotes",
+    "editor.cursorStyle": "line",
+    "editor.renderFinalNewline": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "none",
+    "editor.rulers": [
+        79
+    ],
+    "python.autoComplete.addBrackets": true,
+    "terminal.integrated.rendererType": "dom",
+    "workbench.statusBar.visible": true,
+    "workbench.colorTheme": "Yoncé",
+}
