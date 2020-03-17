@@ -1,0 +1,22 @@
+[global_config]
+  focus = system
+  handle_size = 20
+  inactive_color_offset = 1.0
+  suppress_multiple_term_dialog = True
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#1c1c1c"
+    background_darkness = 0.74
+    cursor_color = "#aaaaaa"
+    foreground_color = "#cd3727"
+    show_titlebar = False
