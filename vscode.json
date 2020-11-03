@@ -16,38 +16,64 @@
         "**/__pycache__": true
     },
     "python.linting.flake8Args": [
-        "--ignore=E116, E402, W503"
+        "--ignore=E116, E402, W503, E501"
     ],
     "files.insertFinalNewline": true,
     "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "breadcrumb.foreground": "#CDCDCD",
         "statusBar.background" : "#C62828",
-        "statusBarItem.remoteBackground": "#C62828"
+        "statusBarItem.remoteBackground": "#C62828",
+        "statusBar.foreground" : "#fff",
+        "sideBar.border": "#116600",
+        // "tab.activeBackground": "#ec4242",
+        // "editorSuggestWidget.selectedBackground": "#111",
+        "terminal.foreground":"#BF4040",
+        "terminal.background": "#1c1c1c",
     },
-    "editor.tokenColorCustomizations": {},
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [{
+            "scope": "punctuation",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        }]
+    },
     "emmet.showSuggestionsAsSnippets": true,
     "emmet.triggerExpansionOnTab": true,
-    "workbench.sideBar.location": "left",
+    "workbench.sideBar.location": "right",
     "files.autoGuessEncoding": true,
-    "editor.fontSize": 15,
     "explorer.autoReveal": true,
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "vsnotes.defaultNotePath": "~/Documents/VSNotes",
     "editor.renderFinalNewline": true,
     "workbench.startupEditor": "newUntitledFile",
     "editor.renderWhitespace": "none",
-    "editor.rulers": [
-        79
-    ],
+    // "editor.rulers": [
+    //     79
+    // ],
     "python.autoComplete.addBrackets": true,
     "terminal.integrated.rendererType": "dom",
-    "workbench.statusBar.visible": true,
+    "workbench.statusBar.visible": false,
     "fancyTerminal.foreground": "Black",
     "fancyTerminal.background": "Aqua",
     "editor.fontFamily": "Liberation Mono",
-    "workbench.colorTheme": "Brogrammer",
     "python.linting.flake8Enabled": true,
     "editor.cursorStyle": "block",
-    "editor.suggest.localityBonus": true
+    "editor.suggest.localityBonus": true,
+    "tabnine.experimentalAutoImports": true,
+    "editor.cursorSmoothCaretAnimation": true,
+    "workbench.list.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "glassit.alpha": 255,
+    "python.languageServer": "Pylance",
+    "editor.fontSize": 14,
+    "editor.codeLens": false,
+    "workbench.colorTheme": "Flate (Bold)",
+    "editor.cursorBlinking": "solid",
+    "zenMode.hideLineNumbers": false,
+    "editor.dragAndDrop": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.autoImportCompletions": false,
+    "python.showStartPage": false,
 }
